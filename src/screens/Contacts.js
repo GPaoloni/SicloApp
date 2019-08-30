@@ -4,7 +4,7 @@ import { TextInput, TouchableOpacity, View, Text } from 'react-native'
 import { colors, styles as appStyles } from '../constants/styles'
 
 
-const Contacts = ({ navigation }) => {
+const ContactsScreen = ({ contacts, navigation }) => {
   return (
     <View style={{ flex: 1, backgroundColor: colors.lightPrimaryColor }}>
       <View style={appStyles.container}>
@@ -26,4 +26,4 @@ const Contacts = ({ navigation }) => {
   )
 }
 
-export default Contacts
+export default ContactsScreen
